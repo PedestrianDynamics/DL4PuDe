@@ -18,7 +18,8 @@ We would like to draw your attention that our pushing behavior differs from the 
 <img src="./files/framework1.png"/>
 Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
 
-<table border="0" width="80%" align="center">
+Demos
+<table border="0" width="100%" align="center">
 <tr>
    <td> Input video </td>
    <td> Output video </td>
@@ -26,9 +27,9 @@ Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for op
 </tr>
 
 <tr>
-   <td> <img src="./files/input150.gif" width="200"/> </td>
-   <td> <img src="./files/150.gif" width="120"/> </td>
-   
+   <td> <img src="./files/input150-distorted.gif" width="300"/> </td>
+   <td> <img src="./files/output150-distorted.gif" width="200"/> </td>
+  
 </tr>
 
 
