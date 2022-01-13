@@ -18,4 +18,9 @@ We would like to draw your attention that our pushing behavior differs from the 
 <img src="./files/framework1.png"/>
 Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
 
- 
+ <div class="myvideo">
+   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="{{ site.baseurl }}./files/150-undistorted.mp4" type="video/mp4" />
+         type="video/webm"  />
+   </video>
+</div>
