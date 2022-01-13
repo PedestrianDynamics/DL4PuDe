@@ -21,14 +21,20 @@ Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for op
 Demos
 <table border="0" width="100%" align="center">
 <tr>
-   <td> Input video </td>
-   <td> Output video </td>
+   <th align="cenetr"> Input video </th>
+   <th align="cenetr"> Output video * </th>
    
 </tr>
 
 <tr>
    <td> <img src="./files/input150-distorted.gif" width="300"/> </td>
    <td> <img src="./files/output150-distorted.gif" width="200"/> </td>
+</tr>
+
+
+<tr>
+   <td colspan="2"> * The framework detects pushing patches every 12 frames. The red boxes refer to the pushing patches. </td>
+    
   
 </tr>
 
