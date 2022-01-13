@@ -18,4 +18,4 @@ We would like to draw your attention that our pushing behavior differs from the 
 <img src="./files/framework1.png"/>
 Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
 
-<video src='./files/150-undistorted.mp4' width=180/> | <video src='./files/labeled-150-undistorted.mp4' width=180/>
+ 
