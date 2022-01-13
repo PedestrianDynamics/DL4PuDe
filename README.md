@@ -20,7 +20,7 @@ Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for op
 
  <div class="myvideo">
    <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-       <source src="{{ site.baseurl }}./files/150-undistorted.mp4" type="video/mp4" />
+       <source src="./files/150-undistorted.mp4" type="video/mp4" />
          type="video/webm"  />
    </video>
 </div>
