@@ -1,5 +1,4 @@
 # Automatic Pushing Behavior Detection Framework
-
 This repository is for the automatic pushing behavior detection framework. 
 #### Content
 1. Souce code of the framework.
@@ -58,13 +57,16 @@ python3 run.py --video [input video path]
 ```   
 4. Demo 
 <br/>
+
 >Run the follwing command
+
 ```   
 python3 run.py --video ./videos/150.mp4 --save --roi 380 128 1356 1294 --patch 3 3 --ratio 0.5  --angle 0
 ```  
 >Now you  see the following details
 
 <img src="./files/run.png"/>
+
 
 > When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the 150 annotated video is available in the directory root under the "150-demo.mp4" name.
 
