@@ -27,7 +27,7 @@ Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for op
 
 <tr>
    <td> <img src="./files/input150.gif" width="200"/> </td>
-   <td> <img src="./files/150.gif" width="200"/> </td>
+   <td> <img src="./files/150.gif" width="120"/> </td>
    
 </tr>
 
