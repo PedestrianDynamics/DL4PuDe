@@ -68,6 +68,6 @@ python3 run.py --video ./videos/150.mp4 --save --roi 380 128 1356 1294 --patch 3
 <img src="./files/run.png"/>
 
 
-> When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the 150 annotated video is available in the directory root under the "150-demo.mp4" name.
+> When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the 150 annotated video is available in the directory root under the ["150-demo.mp4" name.](./150-demo.mp4)
 
 
