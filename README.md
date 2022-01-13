@@ -17,7 +17,28 @@ We would like to draw your attention that our pushing behavior differs from the 
 #### The architecture of the framework
 <img src="./files/framework1.png"/>
 Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
-
+ddddddd
+.myvideo {
+position : relative;
+display : block;
+width : 30%;
+min-width : 200px;
+margin : auto;
+height : auto;
+}
+.flex-video {
+position : relative;
+padding-bottom : 67.5%;
+height : 0;
+overflow : hidden;
+}
+.flex-video iframe, .flex-video object, .flex-video embed {
+position : absolute;
+top : 0;
+left : 0;
+width : 100%;
+height : 100%;
+}
  <div class="myvideo">
    <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
        <source src="./files/150-undistorted.mp4" type="video/mp4" />
