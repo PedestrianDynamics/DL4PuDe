@@ -27,18 +27,40 @@ Demos
 </tr>
 
 <tr>
-   <td> <img src="./files/input150-distorted.gif" width="300"/> </td>
-   <td> <img src="./files/output150-distorted.gif" width="200"/> </td>
+   <td align="center"> <img src="./files/input150-distorted.gif" width="300"/> </td>
+   <td align="center"> <img src="./files/output150-distorted.gif" width="200"/> </td>
 </tr>
 
 
 <tr>
-   <td colspan="2"> * The framework detects pushing patches every 12 frames. The red boxes refer to the pushing patches. </td>
-    
-  
+   <td colspan="2"> * The framework detects pushing patches every 12 frames (12/25 s). The red boxes refer to the pushing patches. </td>
 </tr>
-
-
 </table>
+
+#### Installation
+1. Please clone the repository in your directory.
+```
+git clone https://github.com/PedestrianDynamics/PushingBehaviorDetectionFramework.git
+```
+2. Please install the required libraries.
+```
+pip install -r libraries.txt
+```
+3. Run the framework. 
+```
+python3 run.py --video [input video path]  
+               --roi ["x coordinate of left-top ROI corner" "y coordinate of left-top ROI corner"
+               "x coordinate of  right-bottom ROI corner" "y coordinate of right-bottom ROI corner" ]               --patch [rows cols]    
+               --ratio [scale of video]   
+               --angle [angle in degrees for rotating the input video to make crowd flow direction
+               from left to right ---> ]
+```   
+Demo
+Run the follwing command
+```   
+python3 run.py --video ./videos/280.mp4 --save --roi 556 336 1540 1146 --patch 2 3 --ratio 0.5  --angle 180
+```  
+Now you will see the following details
+<img src="./files/run.png"/>
 
 
