@@ -1,0 +1,8 @@
+ opencv-python==3.4.8
+ numpy
+ scipy
+ tensorflow
+ torch
+ torchvision
+ Pillow
+ tqdm
