@@ -16,7 +16,7 @@ We would like to draw your attention that our pushing behavior differs from the 
 
 #### The architecture of the framework
 <img src="./files/framework1.png"/>
-Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
+Kindly note, we use the [RAFT repo]("https://github.com/princeton-vl/RAFT") for optical flow estimation in our project.
 
 Demos
 <table border="0" width="100%" align="center">
@@ -63,11 +63,12 @@ python3 run.py --video [input video path]
 ```   
 python3 run.py --video ./videos/150.mp4 --save --roi 380 128 1356 1294 --patch 3 3 --ratio 0.5  --angle 0
 ```  
->Now you  see the following details
+> Then, you  see the following details
 
 <img src="./files/run.png"/>
 
+> When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the 150 annotated video is available in the directory root under the "150-demo.mp4" name.
 
-> When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the 150 annotated video is available in the directory root under the ["150-demo.mp4" name.](./150-demo.mp4)
+#### Experiments videos
 
-
+The original experiments videos that are used in this work, are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
