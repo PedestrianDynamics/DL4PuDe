@@ -12,7 +12,7 @@ This repository is for the automatic pushing behavior detection framework.
 #### Goal
 The framework aims to automatically detect pushing behavior at the patch level in videos. It focuses on videos of crowded event entrances that captured by static top-view cameras.
 #### Pushing behavior defention
-<table width="100%" align="center" border="0">
+<table border="0" width="100%" align="center">
 <tr>
     <td align="center"> <img src="./files/snake.jpeg" height="200"/>  </td>
     <td align="center"> <img src="./files/snakemotion.jpg" height="200"/>  </td>
@@ -36,7 +36,6 @@ Demos
    <th align="cenetr"> Output video * </th>
    
 </tr>
-
 <tr>
    <td align="center"> <img src="./files/input150-distorted.gif" width="300"/> </td>
    <td align="center"> <img src="./files/output150-distorted.gif" width="200"/> </td>
