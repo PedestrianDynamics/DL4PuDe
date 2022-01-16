@@ -15,8 +15,8 @@ The framework aims to automatically detect pushing behavior at the patch level i
 <table width="100%" align="center" border="0">
 <tr>
     <td align="center"> <img src="./files/snake.jpeg" width="180"/>  </td>
-    <td align="center"> <img src="./files/snakemotion.jpg" width="250"/>  </td>
-    <td align="center"> <img src="./files/pb.gif" width="250"/>  </td>
+    <td align="center"> <img src="./files/snakemotion.jpg" height="150"/>  </td>
+    <td align="center"> <img src="./files/pb.gif" height="150"/>  </td>
 </tr>
 </table>
 
