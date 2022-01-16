@@ -1,4 +1,4 @@
-# Automatic Deep Learning Pushing Behavior Detection Framework
+# Deep Learning Framework for Automatic Pushing Behavior Detection in videos
 
 This repository is for our preprint paper. See the following paper for more details:
 ```
