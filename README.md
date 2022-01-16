@@ -6,9 +6,9 @@ Under construction
 ```
 
 #### Content
-1. Souce code of the framework.
+1. Source code of the framework.
 2. How to install and use the framework?
-3. Source code of building and training supervised CNN architictures.
+3. Source code for building and training supervised CNN architictures.
 4. Source code with patch-based test sets for evaluating the CNN-based classifiers. 
 5. Generated CNN-based classifiers.
 6. Experiments videos.
@@ -53,15 +53,15 @@ Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for op
 </table>
 
 #### Installation
-1. Please clone the repository in your directory.
+1. Clone the repository in your directory.
 ```
 git clone https://github.com/PedestrianDynamics/PushingBehaviorDetectionFramework.git
 ```
-2. Please install the required libraries.
+2. Install the required libraries.
 ```
 pip install -r libraries.txt
 ```
-3. How to run the framework. 
+3. Run the framework. 
 ```
 python3 run.py --video [input video path]  
                --roi ["x coordinate of left-top ROI corner" "y coordinate of left-top ROI corner"
@@ -78,11 +78,11 @@ python3 run.py --video [input video path]
 ```   
 python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --ratio 0.5  --angle 0
 ```  
-> Then, you  see the following details.
+> Then, you  will see the following details.
 
 <img src="./files/run.png"/>
 
-> When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the 150 annotated video is available in the directory root under the "150-demo.mp4" name.
+> When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the "150 annotated video" is available on the directory root under the "150-demo.mp4" name.
 
 #### Experiments videos
 
@@ -90,7 +90,7 @@ The original experiments videos that are used in this work, are available throug
 
 #### CNN-based classifiers
 
-The framework uses the learned EfficientNet-B0-based classifier from patch-based medium RAFT MIM12 dataset. In this work, Four well-known CNN architectures are learned from different optical flow pushing behavior datasets to generate several CNN-based classifiers. We then select the most classifier, which is the EfficientNet-B0-based classifier with patch-based medium RAFT MIM12 dataset.
+The framework uses the learned EfficientNet-B0-based classifier from patch-based medium RAFT MIM12 dataset. In this work, Four well-known CNN architectures are learned from different optical flow pushing behavior datasets to generate several CNN-based classifiers. We then select the most efficient  classifier, which is the EfficientNet-B0-based classifier with patch-based medium RAFT MIM12 dataset.
 The source code for building and training the CNN architectures, CNN-based classifiers and evaluation of the classifiers are available in the below links.
 1. Source code for building and training the CNN architectures.
    * [EfficientNet-B0-based CNN.](./CNN/CNN-Architectures/efficientNetB0.ipynb)
@@ -107,7 +107,7 @@ The source code for building and training the CNN architectures, CNN-based class
    * [Frame-based RAFT MIM12 training and validation sets, patch-based RAFT MIM12.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
    * [Frame-based RAFT MIM25 training and validation sets, patch-basedRAFT MIM25.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
 4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/))
-5. MIM Training and validation sets: they are available from the corresponding authors upon request.
+5. MIM Training and validation sets are available from the corresponding authors upon request.
    
 
 
