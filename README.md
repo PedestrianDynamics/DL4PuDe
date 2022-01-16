@@ -34,7 +34,7 @@ We would like to draw your attention that our pushing behavior differs from the 
 <img src="./files/framework1.png"/>
 Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
 
-Demos
+**Example**
 <table border="0" width="100%" align="center">
 <tr>
    <th align="cenetr"> Input video </th>
@@ -106,6 +106,8 @@ The source code for building and training the CNN architectures, CNN-based class
    * [Patch-based medium FB MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-FB-MM12/)
    * [Frame-based RAFT MIM12 training and validation sets, patch-based RAFT MIM12.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
    * [Frame-based RAFT MIM25 training and validation sets, patch-basedRAFT MIM25.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
+4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/))
+5. MIM Training and validation sets: they are available from the corresponding authors upon request.
    
 
 
