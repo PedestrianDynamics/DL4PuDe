@@ -1,17 +1,20 @@
-# Automatic Pushing Behavior Detection Framework
+# Automatic Deep Learning Pushing Behavior Detection Framework
+
 This repository is for the automatic pushing behavior detection framework. 
 #### Content
 1. Souce code of the framework.
-2. Source code of building and training supervised CNN architictures.
-3. Source code with patch-based test sets for evaluating the CNN-based classifiers. 
-4. Generated CNN-based classifiers.
-5. Experiments videos.
-6. Demos.
+2. How to install and use the framework?
+3. Source code of building and training supervised CNN architictures.
+4. Source code with patch-based test sets for evaluating the CNN-based classifiers. 
+5. Generated CNN-based classifiers.
+6. Experiments videos.
 
 #### Goal
 The framework aims to automatically detect pushing behavior at the patch level in videos. It focuses on videos of crowded event entrances that captured by static top-view cameras.
+#### Pushing behavior defention
 
-We would like to draw your attention that our pushing behavior differs from the known aggressive pushing behavior (physical aggressive human behavior ). Our pushing behavior is defined as a  set of unfair strategies (e.g., increasing the speed with changing the direction)  for faster access toward the event.
+<img src="snake.jpeg"/>
+We would like to draw your attention that our pushing behavior differs from the known aggressive pushing behavior (physical aggressive human behavior ). Our pushing behavior is defined as a set of unfair strategies (e.g., increasing the speed with changing the direction) to get the event faster.
 
 
 #### The architecture of the framework
@@ -83,7 +86,7 @@ The source code for building and training the CNN architectures, CNN-based class
    * [InceptionV3-B0-based CNN.](./CNN/CNN-Architectures/MobileNet.ipynb/InceptionV3.ipynb)
    * [ResNet50-B0-based CNN.](./CNN/CNN-Architectures/ResNet50.ipynb)
 2. [CNN-based classifiers.](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing)
-3. Evaluation of CNN-based classifiers
+3. Evaluation of CNN-based classifiers.
    * [Patch-based medium RAFT MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM12/)
    * [Patch-based medium RAFT MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM25/)
    * [Patch-based small RAFT MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM12/)
