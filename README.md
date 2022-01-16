@@ -1,6 +1,10 @@
 # Automatic Deep Learning Pushing Behavior Detection Framework
 
-This repository is for the automatic pushing behavior detection framework. 
+This repository is for our preprint paper. See the following paper for more details:
+```
+Under construction
+```
+
 #### Content
 1. Souce code of the framework.
 2. How to install and use the framework?
@@ -10,7 +14,8 @@ This repository is for the automatic pushing behavior detection framework.
 6. Experiments videos.
 
 #### Goal
-The framework aims to automatically detect pushing behavior at the patch level in videos. It focuses on videos of crowded event entrances that captured by static top-view cameras.
+This work aims to develop a novel framework for automatic pushing behavior detection at patch level. In particular,  it focuses on videos of crowded event entrances captured by static top-view cameras. 
+
 #### Pushing behavior defention
 <table border="0" width="100%" align="center">
 <tr>
@@ -27,7 +32,7 @@ We would like to draw your attention that our pushing behavior differs from the 
 
 #### The architecture of the framework
 <img src="./files/framework1.png"/>
-Kindly note, we use the [RAFT repo]("https://github.com/princeton-vl/RAFT") for optical flow estimation in our project.
+Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
 
 Demos
 <table border="0" width="100%" align="center">
@@ -56,7 +61,7 @@ git clone https://github.com/PedestrianDynamics/PushingBehaviorDetectionFramewor
 ```
 pip install -r libraries.txt
 ```
-3. Run the framework. 
+3. How to run the framework. 
 ```
 python3 run.py --video [input video path]  
                --roi ["x coordinate of left-top ROI corner" "y coordinate of left-top ROI corner"
@@ -65,7 +70,7 @@ python3 run.py --video [input video path]
                --angle [angle in degrees for rotating the input video to make crowd flow direction
                from left to right ---> ]
 ```   
-4. Demo 
+#### Demo 
 <br/>
 
 >Run the follwing command
