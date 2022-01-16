@@ -12,8 +12,16 @@ This repository is for the automatic pushing behavior detection framework.
 #### Goal
 The framework aims to automatically detect pushing behavior at the patch level in videos. It focuses on videos of crowded event entrances that captured by static top-view cameras.
 #### Pushing behavior defention
+<table width="100%" align="center">
+<tr>
+    <td> <img src="./files/snake.jpeg" width="150"/>  </td>
+    <td> <img src="./files/snakemotion.jpg" width="150"/>  </td>
+    <td> <img src="./files/pb.gif" width="150"/>  </td>
+</tr>
+</table>
 
-<img src="./files/snake.jpeg" width="100"/>
+
+
 We would like to draw your attention that our pushing behavior differs from the known aggressive pushing behavior (physical aggressive human behavior ). Our pushing behavior is defined as a set of unfair strategies (e.g., increasing the speed with changing the direction) to get the event faster.
 
 
