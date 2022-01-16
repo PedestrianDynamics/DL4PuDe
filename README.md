@@ -78,13 +78,20 @@ The original experiments videos that are used in this work, are available throug
 The framework uses the learned EfficientNet-B0-based classifier from patch-based medium RAFT MIM12 dataset. In this work, Four well-known CNN architectures are learned from different optical flow pushing behavior datasets to generate several CNN-based classifiers. We then select the most classifier, which is the EfficientNet-B0-based classifier with patch-based medium RAFT MIM12 dataset.
 The source code for building and training the CNN architectures, CNN-based classifiers and evaluation of the classifiers are available in the below links.
 1. Source code for building and training the CNN architectures.
-   * [EfficientNet-B0-based CNN](./CNN-Architectures/efficientNetB0.ipynb)
-   * [MobileNet-based CNN](./CNN-Architectures/InceptionV3.ipynb)
-   * [InceptionV3-B0-based CNN](./CNN-Architectures/MobileNet.ipynb/InceptionV3.ipynb)
-   * [ResNet50-B0-based CNN](./CNN-Architectures/ResNet50.ipynb)
-2. [CNN-based classifiers](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing)
+   * [EfficientNet-B0-based CNN.](./CNN/CNN-Architectures/efficientNetB0.ipynb)
+   * [MobileNet-based CNN.](./CNN/CNN-Architectures/InceptionV3.ipynb)
+   * [InceptionV3-B0-based CNN.](./CNN/CNN-Architectures/MobileNet.ipynb/InceptionV3.ipynb)
+   * [ResNet50-B0-based CNN.](./CNN/CNN-Architectures/ResNet50.ipynb)
+2. [CNN-based classifiers.](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing)
 3. Evaluation of CNN-based classifiers
-   * [EfficientNet-B0-based CNN, patch-based medium RAFT MIM12 dataset](./CNN/Classifiers-evaluation/Patch-based-medium-RAFT-MIM12/)
-   * [EfficientNet-B0-based CNN, patch-based medium RAFT MIM25 training dataset](./CNN/Classifiers-evaluation/Patch-based-medium-RAFT-MIM25/)
+   * [Patch-based medium RAFT MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM12/)
+   * [Patch-based medium RAFT MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM25/)
+   * [Patch-based small RAFT MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM12/)
+   * [Patch-based small RAFT MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM25/)
+   * [Patch-based medium FB MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-FB-MM12/)
+   * [Frame-based RAFT MIM12 training and validation sets, patch-based RAFT MIM12.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
+   * [Frame-based RAFT MIM25 training and validation sets, patch-basedRAFT MIM25.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
+   
+
 
   
