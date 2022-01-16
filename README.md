@@ -61,9 +61,9 @@ python3 run.py --video [input video path]
 >Run the follwing command
 
 ```   
-python3 run.py --video ./videos/150.mp4 --save --roi 380 128 1356 1294 --patch 3 3 --ratio 0.5  --angle 0
+python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --ratio 0.5  --angle 0
 ```  
-> Then, you  see the following details
+> Then, you  see the following details.
 
 <img src="./files/run.png"/>
 
@@ -72,3 +72,19 @@ python3 run.py --video ./videos/150.mp4 --save --roi 380 128 1356 1294 --patch 3
 #### Experiments videos
 
 The original experiments videos that are used in this work, are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
+
+#### CNN-based classifiers
+
+The framework uses the learned EfficientNet-B0-based classifier from patch-based medium RAFT MIM12 dataset. In this work, Four well-known CNN architectures are learned from different optical flow pushing behavior datasets to generate several CNN-based classifiers. We then select the most classifier, which is the EfficientNet-B0-based classifier with patch-based medium RAFT MIM12 dataset.
+The source code for building and training the CNN architectures, CNN-based classifiers and evaluation of the classifiers are available in the below links.
+1. Source code for building and training the CNN architectures.
+   * [EfficientNet-B0-based CNN](./CNN-Architectures/efficientNetB0.ipynb)
+   * [MobileNet-based CNN](./CNN-Architectures/InceptionV3.ipynb)
+   * [InceptionV3-B0-based CNN](./CNN-Architectures/MobileNet.ipynb/InceptionV3.ipynb)
+   * [ResNet50-B0-based CNN](./CNN-Architectures/ResNet50.ipynb)
+2. [CNN-based classifiers](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing)
+3. Evaluation of CNN-based classifiers
+   * [EfficientNet-B0-based CNN, patch-based medium RAFT MIM12 dataset](./CNN/Classifiers-evaluation/Patch-based-medium-RAFT-MIM12/)
+   * [EfficientNet-B0-based CNN, patch-based medium RAFT MIM25 training dataset](./CNN/Classifiers-evaluation/Patch-based-medium-RAFT-MIM25/)
+
+  
