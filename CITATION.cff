@@ -6,8 +6,4 @@ authors:
   - given-names: "under construction"
   - email: "under construction"
 title: "DL4PuDe: Deep Learning Framework for Automatic Pushing Behavior Detection in videos"
-keywords:
-  - "pedestrian dynamics"
-  - "pedestrian analysis"
-  - simulation 
-  - modeling
+
