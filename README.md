@@ -1,5 +1,5 @@
 # Dl4PuDe: Deep Learning Framework for Automatic Pushing Behavior Detection in videos
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./liLICENSE)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)
 
 This repository is for our work. See the following reference for more details:
 ```
