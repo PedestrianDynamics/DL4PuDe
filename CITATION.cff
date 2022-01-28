@@ -3,7 +3,6 @@ title: jpscore
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
-type: software
 authors:
   - given-names: JuPedSim Development Core Team
   - email: dev@jupedsim.org
