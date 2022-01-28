@@ -8,9 +8,7 @@ authors:
   - email: under construction
 title: DL
 keywords:
-  - "Deep learning"
-  - "Convolutional neural network"
-  - "Machine learning"
-  - "Crowd behavior analysis"
-  - "Deep optical flow"
-  - "Data visualization"
+  - "pedestrian dynamics"
+  - "pedestrian analysis"
+  - simulation 
+  - modeling
