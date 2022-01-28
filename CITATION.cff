@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names:Under Construction
+    given-names: Under Construction
+    orcid: Under Construction
+
+title: "Dl4PuDE"
+keywords:
+  - "Artificial intelligence"
+  - "Deep learning"
+  - "Convolutional neural network"
+  - "Machine learning"
+  - "Data visualization"
+  - "Crowd behavior analysis"
+  - "Deep optical flow"
+
+
