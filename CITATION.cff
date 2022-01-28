@@ -1,14 +1,16 @@
 cff-version: 1.2.0
-title: jpscore
+title: DL4PuDe: Deep Learning Framework for Automatic Pushing Behavior Detection in videos
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 authors:
-  - given-names: JuPedSim Development Core Team
-  - email: dev@jupedsim.org
-title: JuPedSim - jpscore
+  - given-names: under construction
+  - email: under construction
+title: DL
 keywords:
-  - "pedestrian dynamics"
-  - "pedestrian analysis"
-  - simulation 
-  - modeling
+  - "Deep learning"
+  - "Convolutional neural network"
+  - "Machine learning"
+  - "Crowd behavior analysis"
+  - "Deep optical flow"
+  - "Data visualization"
