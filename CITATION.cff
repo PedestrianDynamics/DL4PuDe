@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-title: DL4PuDe: Deep Learning Framework for Automatic Pushing Behavior Detection in videos
+title: "DL4PuDe: Deep Learning Framework for Automatic Pushing Behavior Detection in videos"
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 authors:
-  - given-names: under construction
-  - email: under construction
+  - given-names: "under construction"
+  - email: "under construction"
 title: DL
 keywords:
   - "pedestrian dynamics"
