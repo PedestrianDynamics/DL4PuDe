@@ -1,9 +1,18 @@
-# Dl4PuDe: Deep Learning Framework for Automatic Pushing Behavior Detection in videos
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)
+# Dl4PuDe: 
 
-This repository is for our work. See the following reference for more details:
+[![arXiv](https://img.shields.io/badge/arXiv-0000.0000-b31b1b.svg)](#) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
+
+
+This repository is for our preprint paper:
 ```
 Under construction
+@article{Alia2022novel,
+  title={A novel deep learning framework for automatic pushing
+behavior detection in videos of crowded event entrances},
+  author={Last name, first name and last2, fist2  and, last3, first3 and ..., ...},
+  journal={arXiv preprint arXiv:2202.000000},
+  year={2022}
+}
 ```
 
 #### Content
@@ -15,7 +24,7 @@ Under construction
 6. Experiments videos.
 
 #### Goal
-This work aims to develop a novel framework for automatic pushing behavior detection at patch level. In particular,  it focuses on videos of crowded event entrances captured by static top-view cameras. 
+Dl4PuDe aims to automatically detect pushing behavior at patch level in videos. In particular,  it focuses on videos of crowded event entrances captured by static top-view cameras. 
 
 #### Pushing behavior defention
 <table border="0" width="100%" align="center">
@@ -26,14 +35,14 @@ This work aims to develop a novel framework for automatic pushing behavior detec
 </tr>
 </table>
 
-
-
 We would like to draw your attention that our pushing behavior differs from the known aggressive pushing behavior (physical aggressive human behavior ). Our pushing behavior is defined as a set of unfair strategies (e.g., increasing the speed with changing the direction) to get the event faster.
 
 
 #### The architecture of the framework
+
+DL4PuDe mainly relied on the power of EfficientNet-B0-based CNN, RAFT and wheel visualization methods.
 <img src="./files/framework1.png"/>
-Kindly note, we use the [RAFT repo](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
+Kindly note, we use the [RAFT repository](https://github.com/princeton-vl/RAFT) under the BSD 3-Clause license for optical flow estimation in our project.
 
 **Example**
 <table border="0" width="100%" align="center">
@@ -96,7 +105,7 @@ The source code for building and training the CNN architectures, CNN-based class
 1. Source code for building and training the CNN architectures.
    * [EfficientNet-B0-based CNN.](./CNN/CNN-Architectures/efficientNetB0.ipynb)
    * [MobileNet-based CNN.](./CNN/CNN-Architectures/InceptionV3.ipynb)
-   * [InceptionV3-B0-based CNN.](./CNN/CNN-Architectures/MobileNet.ipynb/InceptionV3.ipynb)
+   * [InceptionV3-B0-based CNN.](./CNN/CNN-Architectures/InceptionV3.ipynb)
    * [ResNet50-B0-based CNN.](./CNN/CNN-Architectures/ResNet50.ipynb)
 2. [CNN-based classifiers.](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing)
 3. Evaluation of CNN-based classifiers.
@@ -107,9 +116,19 @@ The source code for building and training the CNN architectures, CNN-based class
    * [Patch-based medium FB MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-FB-MM12/)
    * [Frame-based RAFT MIM12 training and validation sets, patch-based RAFT MIM12.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
    * [Frame-based RAFT MIM25 training and validation sets, patch-basedRAFT MIM25.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
-4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/))
+4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/)
 5. MIM Training and validation sets are available from the corresponding authors upon request.
    
-
-
+#### Citation
+To cite the paper, kindly use the following BibTex entry:
+```
+Under construction
+@article{Alia2022novel,
+  title={A novel deep learning framework for automatic pushing
+behavior detection in videos of crowded event entrances},
+  author={Last name, first name and last2, fist2  and, last3, first3 and ..., ...},
+  journal={arXiv preprint arXiv:2202.000000},
+  year={2022}
+}
+```
   
