@@ -1,4 +1,4 @@
-# Dl4PuDe: 
+# `Dl4PuDe:` A novel deep learning framework for automatic pushing behavior detection in videos of crowded event entrances
 
 [![arXiv](https://img.shields.io/badge/arXiv-0000.0000-b31b1b.svg)](#) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
 
@@ -24,7 +24,7 @@ behavior detection in videos of crowded event entrances},
 6. Experiments videos.
 
 #### Goal
-Dl4PuDe aims to automatically detect pushing behavior at patch level in videos. In particular,  it focuses on videos of crowded event entrances captured by static top-view cameras. 
+`Dl4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it focuses on videos of crowded event entrances captured by static top-view cameras. 
 
 #### Pushing behavior defention
 <table border="0" width="100%" align="center">
@@ -40,7 +40,8 @@ We would like to draw your attention that our pushing behavior differs from the 
 
 #### The architecture of the framework
 
-DL4PuDe mainly relied on the power of EfficientNet-B0-based CNN, RAFT and wheel visualization methods.
+`DL4PuDe` mainly relied on the power of EfficientNet-B0-based CNN, RAFT and wheel visualization methods.
+
 <img src="./files/framework1.png"/>
 Kindly note, we use the [RAFT repository](https://github.com/princeton-vl/RAFT) under the BSD 3-Clause license for optical flow estimation in our project.
 
