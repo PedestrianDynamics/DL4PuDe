@@ -23,7 +23,7 @@ This repository is for our work:
 6. Video experiments.
 
 #### Goal
-`Dl4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
+`DL4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
 #### Pushing behavior defention
 <table border="0" width="100%" align="center">
 <tr>
