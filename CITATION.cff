@@ -1,0 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  DL4PuDe: A hybrid framework of deep learning and
+  visualization for pushing behavior detection in
+  pedestrian dynamics
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Ahmed
+    family-names: Alia
+    email: a.alia@fz-juelich.de
+    affiliation: >-
+      Institute for Advanced Simulation,
+      Forschungszentrum Jülich, 52425, Germany
+    orcid: 'https://orcid.org/0000-0002-3049-4924'
+  - given-names: Mohammed
+    family-names: Maree
+    email: Mohammed.maree@aaup.edu
+    affiliation: >-
+      Information Technology Department, Faculty of
+      Engineering and Information Technology, Arab
+      American University, P.O Box 240, Palestine
+    orcid: 'https://orcid.org/0000-0002-6114-4687'
+  - given-names: Mohcine
+    family-names: Chraibi
+    email: m.chraibi@fz-juelich.de
+    orcid: 'https://orcid.org/0000-0002-0999-6807'
+    affiliation: >-
+      Institute for Advanced Simulation,
+      Forschungszentrum Jülich, 52425, Germany
