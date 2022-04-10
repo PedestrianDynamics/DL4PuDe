@@ -1,16 +1,15 @@
-# `Dl4PuDe:` A novel deep learning framework for automatic pushing behavior detection in videos of crowded event entrances
-
-[![arXiv](https://img.shields.io/badge/arXiv-0000.0000-b31b1b.svg)](#) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
+# `Dl4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics
 
 
-This repository is for our preprint paper:
+ [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
+
+
+This repository is for our unpublished paper:
 ```
-Under construction
-@article{Alia2022novel,
-  title={A novel deep learning framework for automatic pushing
-behavior detection in videos of crowded event entrances},
-  author={Last name, first name and last2, fist2  and, last3, first3 and ..., ...},
-  journal={arXiv preprint arXiv:2202.000000},
+@article{Alia2022,
+  title={A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics},
+  author={Alia, Ahmed and Maree, Mohammed and, Chraibi, Mohcine},
+  journal={submitted for publication},
   year={2022}
 }
 ```
@@ -18,14 +17,13 @@ behavior detection in videos of crowded event entrances},
 #### Content
 1. Source code of the framework.
 2. How to install and use the framework?
-3. Source code for building and training supervised CNN architictures.
-4. Source code with patch-based test sets for evaluating the CNN-based classifiers. 
+3. Source code for building and training CNN-based classifiers.
+4. Source code with patch-based RAFT-MIM test sets for evaluating the trained CNN-based classifiers. 
 5. Generated CNN-based classifiers.
 6. Experiments videos.
 
 #### Goal
-`Dl4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it focuses on videos of crowded event entrances captured by static top-view cameras. 
-
+`Dl4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
 #### Pushing behavior defention
 <table border="0" width="100%" align="center">
 <tr>
@@ -35,15 +33,13 @@ behavior detection in videos of crowded event entrances},
 </tr>
 </table>
 
-We would like to draw your attention that our pushing behavior differs from the known aggressive pushing behavior (physical aggressive human behavior ). Our pushing behavior is defined as a set of unfair strategies (e.g., increasing the speed with changing the direction) to get the event faster.
-
-
+pushing behavior in this article is defined as an unfair strategy that some pedestrians use to move quickly and enter an event faster.
 #### The architecture of the framework
 
-`DL4PuDe` mainly relied on the power of EfficientNet-B0-based CNN, RAFT and wheel visualization methods.
+`DL4PuDe` mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.
 
 <img src="./files/framework1.png"/>
-Kindly note, we use the [RAFT repository](https://github.com/princeton-vl/RAFT) under the BSD 3-Clause license for optical flow estimation in our project.
+Kindly note, we use the [RAFT repository](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
 
 **Example**
 <table border="0" width="100%" align="center">
@@ -59,7 +55,7 @@ Kindly note, we use the [RAFT repository](https://github.com/princeton-vl/RAFT) 
 
 
 <tr>
-   <td colspan="2"> * The framework detects pushing patches every 12 frames (12/25 s). The red boxes refer to the pushing patches. </td>
+   <td colspan="2"> * The framework detects pushing patches every 12 frames (12/25 s), the red boxes refer to the pushing patches. </td>
 </tr>
 </table>
 
@@ -76,7 +72,8 @@ pip install -r libraries.txt
 ```
 python3 run.py --video [input video path]  
                --roi ["x coordinate of left-top ROI corner" "y coordinate of left-top ROI corner"
-               "x coordinate of  right-bottom ROI corner" "y coordinate of right-bottom ROI corner" ]               --patch [rows cols]    
+               "x coordinate of  right-bottom ROI corner" "y coordinate of right-bottom ROI corner" ] 
+               --patch [rows cols]    
                --ratio [scale of video]   
                --angle [angle in degrees for rotating the input video to make crowd flow direction
                from left to right ---> ]
@@ -101,35 +98,23 @@ The original experiments videos that are used in this work, are available throug
 
 #### CNN-based classifiers
 
-The framework uses the learned EfficientNet-B0-based classifier from patch-based medium RAFT MIM12 dataset. In this work, Four well-known CNN architectures are learned from different optical flow pushing behavior datasets to generate several CNN-based classifiers. We then select the most efficient  classifier, which is the EfficientNet-B0-based classifier with patch-based medium RAFT MIM12 dataset.
-The source code for building and training the CNN architectures, CNN-based classifiers and evaluation of the classifiers are available in the below links.
-1. Source code for building and training the CNN architectures.
-   * [EfficientNet-B0-based CNN.](./CNN/CNN-Architectures/efficientNetB0.ipynb)
-   * [MobileNet-based CNN.](./CNN/CNN-Architectures/InceptionV3.ipynb)
-   * [InceptionV3-B0-based CNN.](./CNN/CNN-Architectures/InceptionV3.ipynb)
-   * [ResNet50-B0-based CNN.](./CNN/CNN-Architectures/ResNet50.ipynb)
-2. [CNN-based classifiers.](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing)
-3. Evaluation of CNN-based classifiers.
-   * [Patch-based medium RAFT MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM12/)
-   * [Patch-based medium RAFT MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM25/)
-   * [Patch-based small RAFT MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM12/)
-   * [Patch-based small RAFT MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM25/)
-   * [Patch-based medium FB MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-FB-MM12/)
-   * [Frame-based RAFT MIM12 training and validation sets, patch-based RAFT MIM12.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
-   * [Frame-based RAFT MIM25 training and validation sets, patch-basedRAFT MIM25.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
+We use four CNN-based classifiers for building and evaluating our classifier, including EfficientNet-B0, MobileNet, InceptionV3, and ResNet50. The source code for building, training and evaluating the CNN-based classifiers, as well as the trained classifiers are available in the below links.
+1. Source code for building and training the CNN-based classifiers.
+   * [EfficientNet-B0-based classifier.](./CNN/CNN-Architectures/efficientNetB0.ipynb)
+   * [MobileNet-based classifier.](./CNN/CNN-Architectures/InceptionV3.ipynb)
+   * [InceptionV3-based classifier.](./CNN/CNN-Architectures/InceptionV3.ipynb)
+   * [ResNet50-based classifier.](./CNN/CNN-Architectures/ResNet50.ipynb)
+2. [Trained CNN-based classifiers.](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing)
+3. CNN-based classifiers Evaluation.
+   * [Patch-based medium RAFT-MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM12/)
+   * [Patch-based medium RAFT-MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM25/)
+   * [Patch-based small RAFT-MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM12/)
+   * [Patch-based small RAFT-MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-small-RAFT-MIM25/)
+   * [Patch-based medium FB-MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-FB-MM12/)
+   * [Frame-based RAFT-MIM12 dataset.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
+   * [Frame-based RAFT-MIM25 dataset.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
 4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/)
 5. MIM Training and validation sets are available from the corresponding authors upon request.
    
-#### Citation
-To cite the paper, kindly use the following BibTex entry:
-```
-Under construction
-@article{Alia2022novel,
-  title={A novel deep learning framework for automatic pushing
-behavior detection in videos of crowded event entrances},
-  author={Last name, first name and last2, fist2  and, last3, first3 and ..., ...},
-  journal={arXiv preprint arXiv:2202.000000},
-  year={2022}
-}
-```
+
   
