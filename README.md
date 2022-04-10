@@ -1,8 +1,6 @@
 # `DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics
 
-
- [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
-
+[![DOI](https://zenodo.org/badge/447236287.svg)](https://zenodo.org/badge/latestdoi/447236287) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
 
 This repository is for our work:
 ```
@@ -13,7 +11,6 @@ This repository is for our work:
   year={2022}
 }
 ```
-
 #### Content
 1. Source code of the framework.
 2. How to install and use the framework?
@@ -23,8 +20,8 @@ This repository is for our work:
 6. Video experiments.
 
 #### Goal
-`DL4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
-#### Pushing behavior defention
+`Dl4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
+#### Pushing Behavior Defention
 <table border="0" width="100%" align="center">
 <tr>
     <td align="center"> <img src="./files/snake.jpeg" height="200"/>  </td>
@@ -34,7 +31,7 @@ This repository is for our work:
 </table>
 
 pushing behavior in this article is defined as an unfair strategy that some pedestrians use to move quickly and enter an event faster.
-#### The architecture of the framework
+#### The Architecture of `DL4PuDe`
 
 `DL4PuDe` mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.
 
@@ -92,11 +89,11 @@ python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --r
 
 > When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the "150 annotated video" is available on the directory root under the "150-demo.mp4" name.
 
-#### Experiments videos
+#### Experiments Videos
 
 The original experiments videos that are used in this work, are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
 
-#### CNN-based classifiers
+#### CNN-based Classifiers
 
 We use four CNN-based classifiers for building and evaluating our classifier, including EfficientNet-B0, MobileNet, InceptionV3, and ResNet50. The source code for building, training and evaluating the CNN-based classifiers, as well as the trained classifiers are available in the below links.
 1. Source code for building and training the CNN-based classifiers.
@@ -116,5 +113,14 @@ We use four CNN-based classifiers for building and evaluating our classifier, in
 4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/)
 5. MIM Training and validation sets are available from the corresponding authors upon request.
    
-
+#### Citation
+To cite the paper, kindly use the following BibTex entry:
+```
+@article{Alia2022,
+  title={A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics},
+  author={Alia, Ahmed and Maree, Mohammed and, Chraibi, Mohcine},
+  journal={submitted for publication},
+  year={2022}
+}
+```
   
