@@ -30,13 +30,13 @@ This repository is for our work:
 </tr>
 </table>
 
-pushing behavior in this article is defined as an unfair strategy that some pedestrians use to move quickly and enter an event faster.
+Pushing behavior in this article is defined as an unfair strategy that some pedestrians use to move quickly and enter an event faster.
 #### The Architecture of `DL4PuDe`
 
 `DL4PuDe` mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.
 
 <img src="./files/framework1.png"/>
-Kindly note, we use the [RAFT repository](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
+Kindly note that we use the [RAFT repository](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
 
 **Example**
 <table border="0" width="100%" align="center">
@@ -78,12 +78,12 @@ python3 run.py --video [input video path]
 #### Demo 
 <br/>
 
->Run the follwing command
+>Run the following command
 
 ```   
 python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --ratio 0.5  --angle 0
 ```  
-> Then, you  will see the following details.
+> Then, you will see the following details.
 
 <img src="./files/run.png"/>
 
@@ -91,7 +91,7 @@ python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --r
 
 #### Experiments Videos
 
-The original experiments videos that are used in this work, are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
+The original experiments videos that are used in this work are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
 
 #### CNN-based Classifiers
 
