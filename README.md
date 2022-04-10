@@ -16,11 +16,11 @@ This repository is for our work:
 2. How to install and use the framework?
 3. Source code for building and training CNN-based classifiers.
 4. Source code with patch-based RAFT-MIM test sets for evaluating the trained CNN-based classifiers. 
-5. Generated CNN-based classifiers.
+5. Trained CNN-based classifiers.
 6. Video experiments.
 
 #### Goal
-`Dl4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
+`Dl4PuDe` aims to automatically detect pushing behavior at the patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
 #### Pushing Behavior Defention
 <table border="0" width="100%" align="center">
 <tr>
