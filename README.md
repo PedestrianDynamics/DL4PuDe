@@ -1,10 +1,10 @@
-# `Dl4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics
+# `DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics
 
 
  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
 
 
-This repository is for our unpublished paper:
+This repository is for our work:
 ```
 @article{Alia2022,
   title={A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics},
@@ -20,7 +20,7 @@ This repository is for our unpublished paper:
 3. Source code for building and training CNN-based classifiers.
 4. Source code with patch-based RAFT-MIM test sets for evaluating the trained CNN-based classifiers. 
 5. Generated CNN-based classifiers.
-6. Experiments videos.
+6. Video experiments.
 
 #### Goal
 `Dl4PuDe` aims to automatically detect pushing behavior at patch level in videos. In particular,  it exploits video recordings of crowded entrances captured by a top-view static camera.
