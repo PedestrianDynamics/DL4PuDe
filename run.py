@@ -317,7 +317,7 @@ def inference(args):
     ####################################################################
     print(5*"\n")
     print("**************************************************************************")
-    print("*****Automatic Deep learning framework for detecting pushing behavior*****")
+    print("                                 DL4PuDe Framwork")
     print("**************************************************************************")
     print("\n")
     

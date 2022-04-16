@@ -63,6 +63,7 @@ git clone https://github.com/PedestrianDynamics/PushingBehaviorDetectionFramewor
 ```
 2. Install the required libraries.
 ```
+cd PushingBehaviorDetectionFramework
 pip install -r libraries.txt
 ```
 3. Run the framework. 
