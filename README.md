@@ -2,14 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/447236287.svg)](https://zenodo.org/badge/latestdoi/447236287) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
 
-This repository is for our work:
+This repository is for the [paper](https://www.mdpi.com/1424-8220/22/11/4040/htm):
 ```
-@article{Alia2022,
-  title={A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics},
-  author={Alia, Ahmed and Maree, Mohammed and, Chraibi, Mohcine},
-  journal={submitted for publication},
-  year={2022}
-}
+Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
 #### Content
 1. Source code of the framework.
@@ -117,11 +112,6 @@ We use four CNN-based classifiers for building and evaluating our classifier, in
 #### Citation
 To cite the paper, kindly use the following BibTex entry:
 ```
-@article{Alia2022,
-  title={A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics},
-  author={Alia, Ahmed and Maree, Mohammed and, Chraibi, Mohcine},
-  journal={submitted for publication},
-  year={2022}
-}
+Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
   
