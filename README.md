@@ -7,20 +7,32 @@ This repository is for the DL4PuDe framework, along with its  published [paper](
 Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
 ## Content
-1. Source code of the framework.
-2. How to install and use the framework?
-3. Source code for building and training CNN-based classifiers.
-4. Source code with patch-based RAFT-MIM test sets for evaluating the trained CNN-based classifiers. 
-5. Trained CNN-based classifiers.
-6. Video experiments.
+1. <a href="aim"> Framework aim. </a>
+2. <a href="motivation"> Framework Motivation. </a>
+3. <a href="defention"> Pushing Behavior Defention. </a>
+4. <a href="architicture"> Framework Architicture. </a>
+5. <a href="install"> How to install and use the framework. </a>
+6. <a href="demo"> Demo. </a>
+7. <a href="videos"> Experiments Videos. </a>
+8. <a href="cnnsource"> Source code for building and training CNN-based classifiers. </a>
+9. <a href="trained"> Trained CNN-based classifiers. </a>
+10. <a href="evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
+11. <a href="test"> Test sets. </a>
+12. <a href="list"> List of papers that cited this work. </a>
 
 ## Aim of `Dl4PuDe` Framework
+<a name="aim">
+
 `Dl4PuDe`  aims to automatically detect and annotate pushing behavior at the patch level in video recordings of human crowds. 
 
 ## Motivation of `Dl4PuDe` Framework
+<a name="motivation">
+
 To assist researchers in the field of crowd dynamics in gaining a better understanding of pushing dynamics, which is crucial for effectively managing a comfortable and safe crowd.
 
 ## Pushing Behavior Defention
+<a name="defention">
+
 In this article, pushing can be defined as a behavior that pedestrians use to reach a target faster.
 
 <table border="0" width="100%" align="center">
@@ -32,6 +44,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 </table>
 
 ## The Architecture of `DL4PuDe`
+<a name="architicture">
 
 `DL4PuDe` mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.
 
@@ -49,14 +62,14 @@ Kindly note that we use the [RAFT repository](https://github.com/princeton-vl/RA
    <td align="center"> <img src="./files/input150-distorted.gif" width="300"/> </td>
    <td align="center"> <img src="./files/output150-distorted.gif" width="200"/> </td>
 </tr>
-
-
 <tr>
    <td colspan="2"> * The framework detects pushing patches every 12 frames (12/25 s), the red boxes refer to the pushing patches. </td>
 </tr>
 </table>
 
 ## Installation
+<a name="install">
+
 1. Clone the repository in your directory.
 ```
 git clone https://github.com/PedestrianDynamics/PushingBehaviorDetectionFramework.git
@@ -77,7 +90,7 @@ python3 run.py --video [input video path]
                from left to right ---> ]
 ```   
 ## Demo 
-<br/>
+<a name="demo">
 
 >Run the following command
 
@@ -91,10 +104,12 @@ python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --r
 > When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the "150 annotated video" is available on the directory root under the "150-demo.mp4" name.
 
 ## Experiments Videos
+<a name="videos">
 
 The original experiments videos that are used in this work are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
 
 ## CNN-based Classifiers
+<a name="cnnsource">
 
 We use four CNN-based classifiers for building and evaluating our classifier, including EfficientNet-B0, MobileNet, InceptionV3, and ResNet50. The source code for building, training and evaluating the CNN-based classifiers, as well as the trained classifiers are available in the below links.
 1. Source code for building and training the CNN-based classifiers.
@@ -113,15 +128,17 @@ We use four CNN-based classifiers for building and evaluating our classifier, in
    * [Frame-based RAFT-MIM25 dataset.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
 4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/)
 5. MIM training and validation sets are available from the corresponding authors upon request.
-   
+ 
+## List of papers that cited this work 
+
+To access the list of papers citing this work, kindly click on this [link.](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5)
+
 ## Citation
 
 If you utilize this framework or the generated dataset in your work, please cite it using the following BibTex entry:
 ```
 Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
-## List of papers that cited this work 
 
-To access the list of papers citing this work, kindly click on this [link](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5)
 
  
