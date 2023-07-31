@@ -131,6 +131,7 @@ We use four CNN-based classifiers for building and evaluating our classifier, in
  
 ## List of papers that cited this work 
 <a name="list">
+
 To access the list of papers citing this work, kindly click on this [link.](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5)
 
 ## Citation
