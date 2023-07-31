@@ -120,4 +120,8 @@ If you utilize this framework or the generated dataset in your work, please cite
 ```
 Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
-  
+## List of papers that cited this work 
+
+To access the list of papers citing this work, kindly click on this [link](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5)
+
+<iframe src="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5"/>
