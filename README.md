@@ -112,7 +112,7 @@ We use four CNN-based classifiers for building and evaluating our classifier, in
    * [Frame-based RAFT-MIM12 dataset.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
    * [Frame-based RAFT-MIM25 dataset.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
 4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/)
-5. MIM Training and validation sets are available from the corresponding authors upon request.
+5. MIM training and validation sets are available from the corresponding authors upon request.
    
 ## Citation
 
