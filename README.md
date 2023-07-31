@@ -124,4 +124,4 @@ Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning 
 
 To access the list of papers citing this work, kindly click on this [link](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5)
 
-<iframe src="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5"/>
+ 
