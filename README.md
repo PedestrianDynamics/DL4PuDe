@@ -14,11 +14,12 @@ Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning 
 5. <a href="#install"> How to install and use the framework. </a>
 6. <a href="#demo"> Demo. </a>
 7. <a href="#videos"> Experiments Videos. </a>
-8. <a href="#cnnsource"> Source code for building and training CNN-based classifiers. </a>
-9. <a href="#trained"> Trained CNN-based classifiers. </a>
-10. <a href="#evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
-11. <a href="#test"> Test sets. </a>
-12. <a href="#list"> List of papers that cited this work. </a>
+8. <a href="#cnn"> CNN-based Classifiers </a>
+    a. <a href="#cnnsource"> Source code for building and training CNN-based classifiers. </a>
+    b. <a href="#trained"> Trained CNN-based classifiers. </a>
+    c. <a href="#evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
+    d. <a href="#test"> Test sets. </a>
+9. <a href="#list"> List of papers that cited this work. </a>
 
 ## Aim of `Dl4PuDe` Framework
 <a name="aim">
