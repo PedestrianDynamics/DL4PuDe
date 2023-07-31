@@ -7,31 +7,31 @@ This repository is for the DL4PuDe framework, along with its  published [paper](
 Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
 ## Content
-1. <a href="aim"> Framework aim. </a>
-2. <a href="motivation"> Framework Motivation. </a>
-3. <a href="defention"> Pushing Behavior Defention. </a>
-4. <a href="architicture"> Framework Architicture. </a>
-5. <a href="install"> How to install and use the framework. </a>
-6. <a href="demo"> Demo. </a>
-7. <a href="videos"> Experiments Videos. </a>
-8. <a href="cnnsource"> Source code for building and training CNN-based classifiers. </a>
-9. <a href="trained"> Trained CNN-based classifiers. </a>
-10. <a href="evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
-11. <a href="test"> Test sets. </a>
-12. <a href="list"> List of papers that cited this work. </a>
+1. <a href="#aim"> Framework aim. </a>
+2. <a href="#motivation"> Framework Motivation. </a>
+3. <a href="#defention"> Pushing Behavior Defention. </a>
+4. <a href="#architicture"> Framework Architicture. </a>
+5. <a href="#install"> How to install and use the framework. </a>
+6. <a href="#demo"> Demo. </a>
+7. <a href="#videos"> Experiments Videos. </a>
+8. <a href="#cnnsource"> Source code for building and training CNN-based classifiers. </a>
+9. <a href="#trained"> Trained CNN-based classifiers. </a>
+10. <a href="#evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
+11. <a href="#test"> Test sets. </a>
+12. <a href="#list"> List of papers that cited this work. </a>
 
 ## Aim of `Dl4PuDe` Framework
-<a name="#aim">
+<a name="aim">
 
 `Dl4PuDe`  aims to automatically detect and annotate pushing behavior at the patch level in video recordings of human crowds. 
 
 ## Motivation of `Dl4PuDe` Framework
-<a name="#motivation">
+<a name="motivation">
 
 To assist researchers in the field of crowd dynamics in gaining a better understanding of pushing dynamics, which is crucial for effectively managing a comfortable and safe crowd.
 
 ## Pushing Behavior Defention
-<a name="#defention">
+<a name="defention">
 
 In this article, pushing can be defined as a behavior that pedestrians use to reach a target faster.
 
@@ -44,7 +44,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 </table>
 
 ## The Architecture of `DL4PuDe`
-<a name="#architicture">
+<a name="architicture">
 
 `DL4PuDe` mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.
 
@@ -68,7 +68,7 @@ Kindly note that we use the [RAFT repository](https://github.com/princeton-vl/RA
 </table>
 
 ## Installation
-<a name="#install">
+<a name="install">
 
 1. Clone the repository in your directory.
 ```
@@ -90,7 +90,7 @@ python3 run.py --video [input video path]
                from left to right ---> ]
 ```   
 ## Demo 
-<a name="#demo">
+<a name="demo">
 
 >Run the following command
 
@@ -104,12 +104,12 @@ python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --r
 > When the progress of the framework is complete, it will generate the annotated video in the framework directory. Please note that the "150 annotated video" is available on the directory root under the "150-demo.mp4" name.
 
 ## Experiments Videos
-<a name="#videos">
+<a name="videos">
 
 The original experiments videos that are used in this work are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
 
 ## CNN-based Classifiers
-<a name="#cnnsource">
+<a name="cnnsource">
 
 We use four CNN-based classifiers for building and evaluating our classifier, including EfficientNet-B0, MobileNet, InceptionV3, and ResNet50. The source code for building, training and evaluating the CNN-based classifiers, as well as the trained classifiers are available in the below links.
 1. Source code for building and training the CNN-based classifiers. <a name="#cnnsource">
@@ -117,7 +117,7 @@ We use four CNN-based classifiers for building and evaluating our classifier, in
    * [MobileNet-based classifier.](./CNN/CNN-Architectures/InceptionV3.ipynb)
    * [InceptionV3-based classifier.](./CNN/CNN-Architectures/InceptionV3.ipynb)
    * [ResNet50-based classifier.](./CNN/CNN-Architectures/ResNet50.ipynb)
-2. [Trained CNN-based classifiers.](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing) <a name="#trained">
+2. [Trained CNN-based classifiers.](https://drive.google.com/drive/folders/1vmgYufnt4_NNQUE9PGYZLkrn5DmErENu?usp=sharing) <a name="trained">
 3. CNN-based classifiers Evaluation. <a name="#evaluate">
    * [Patch-based medium RAFT-MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM12/)
    * [Patch-based medium RAFT-MIM25 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-RAFT-MIM25/)
@@ -126,11 +126,11 @@ We use four CNN-based classifiers for building and evaluating our classifier, in
    * [Patch-based medium FB-MIM12 dataset.](./CNN/Classifiers-evaluation/patch-based-medium-FB-MM12/)
    * [Frame-based RAFT-MIM12 dataset.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM12/)
    * [Frame-based RAFT-MIM25 dataset.](./CNN/Classifiers-evaluation/frame-based-RAFT-MIM25/)
-4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/) <a name="#test">
+4. [Patch-based MIM test sets.](./CNN/Classifiers-evaluation/test-sets/) <a name="test">
 5. MIM training and validation sets are available from the corresponding authors upon request.
  
 ## List of papers that cited this work 
-<a name="#list">
+<a name="list">
 To access the list of papers citing this work, kindly click on this [link.](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14553227952079022657&as_sdt=5)
 
 ## Citation
