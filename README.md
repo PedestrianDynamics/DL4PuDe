@@ -113,7 +113,7 @@ The original experiments videos that are used in this work are available through
 <a name="cnn">
 
 We use four CNN-based classifiers for building and evaluating our classifier, including EfficientNet-B0, MobileNet, InceptionV3, and ResNet50. The source code for building, training and evaluating the CNN-based classifiers, as well as the trained classifiers are available in the below links.
-1. Source code for building and training the CNN-based classifiers. <a name="#cnnsource">
+1. Source code for building and training the CNN-based classifiers. <a name="cnnsource">
    * [EfficientNet-B0-based classifier.](./CNN/CNN-Architectures/efficientNetB0.ipynb)
    * [MobileNet-based classifier.](./CNN/CNN-Architectures/InceptionV3.ipynb)
    * [InceptionV3-based classifier.](./CNN/CNN-Architectures/InceptionV3.ipynb)
