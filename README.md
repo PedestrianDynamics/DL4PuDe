@@ -15,10 +15,10 @@ Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning 
 6. <a href="#demo"> Demo. </a>
 7. <a href="#videos"> Experiments Videos. </a>
 8. <a href="#cnn"> CNN-based Classifiers </a>
-    a. <a href="#cnnsource"> Source code for building and training CNN-based classifiers. </a>
-    b. <a href="#trained"> Trained CNN-based classifiers. </a>
-    c. <a href="#evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
-    d. <a href="#test"> Test sets. </a>
+   * <a href="#cnnsource"> Source code for building and training CNN-based classifiers. </a>
+   * <a href="#trained"> Trained CNN-based classifiers. </a>
+   * <a href="#evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
+   *  <a href="#test"> Test sets. </a>
 9. <a href="#list"> List of papers that cited this work. </a>
 
 ## Aim of `Dl4PuDe` Framework
@@ -110,7 +110,7 @@ python3 run.py --video ./videos/150.mp4  --roi 380 128 1356 1294 --patch 3 3 --r
 The original experiments videos that are used in this work are available through the [Pedestrian Dynamics Data Archive hosted](http://ped.fz-juelich.de/da/2018crowdqueue) by the Forschungszentrum Juelich. Also, the undistorted videos are available by [this link.](https://drive.google.com/drive/folders/16eZhC9mnUQUXxUeIUXd6xwBU2fSf3qCz?usp=sharing) 
 
 ## CNN-based Classifiers
-<a name="cnnsource">
+<a name="cnn">
 
 We use four CNN-based classifiers for building and evaluating our classifier, including EfficientNet-B0, MobileNet, InceptionV3, and ResNet50. The source code for building, training and evaluating the CNN-based classifiers, as well as the trained classifiers are available in the below links.
 1. Source code for building and training the CNN-based classifiers. <a name="#cnnsource">
