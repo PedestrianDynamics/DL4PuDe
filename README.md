@@ -40,7 +40,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 <tr>
     <td align="center"> <img src="./files/snake.jpeg" height="200"/>  </td>
     <td align="center"> <img src="./files/snakemotion.jpg" height="200"/>  </td>
-    <td align="center"> ![Demo File](./files/example.gif) </td>
+    <td align="center"> <img src="./files/example.gif" height="200"/> </td>
 </tr>
 </table>
 
