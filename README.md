@@ -36,17 +36,16 @@ To assist researchers in the field of crowd dynamics in gaining a better underst
 
 In this article, pushing can be defined as a behavior that pedestrians use to reach a target faster.
 
-<table border="0" width="100%" align="center">
-<tr>
 
-    <td align="center"> <img src="./files/snakemotion.jpg" />  </td>
-</tr>
 
-<tr>
-    <td align="center"> test<img src="files/example.gif" />  </td>
+<img src="./files/snakemotion.jpg" 
+
+
+
+<img src="files/example.gif" 
      
-</tr>
-</table>
+
+
 
 
 
