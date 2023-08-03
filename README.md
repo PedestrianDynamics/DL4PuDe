@@ -73,7 +73,7 @@ Kindly note that we use the <a href="https://github.com/princeton-vl/RAFT" />[RA
 
 1. Clone the repository in your directory.
 ```
-git clone https://github.com/PedestrianDynamics/PushingBehaviorDetectionFramework.git
+git clone https://github.com/PedestrianDynamics/DL4PuDe.git
 ```
 2. Install the required libraries.
 ```
