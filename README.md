@@ -40,7 +40,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 ###### An example of pushing strategy
 <img src="./files/example.gif" width="300px"/>
 
-###### Reaching to entrance faster
+###### Entering the event faster
 <img src="./files/snakemotion.jpg" width="300px"/>
  
 
