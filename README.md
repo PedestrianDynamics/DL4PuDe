@@ -44,19 +44,6 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 <img src="./files/snakemotion.jpg" width="300px"/>
  
 
-
-
-
-
-
-     
-
-
-
-
-
-
-
 ## The Architecture of `DL4PuDe`
 <a name="architicture">
 
@@ -155,8 +142,13 @@ If you utilize this framework or the generated dataset in your work, please cite
 Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
 
+
 ## Acknowledgments
 * This work was funded by the German Federal Ministry of Education and Research (BMBF: funding number 01DH16027) within the Palestinian-German Science Bridge project framework, and partially by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)—491111487.
+
+* Thanks to the Forschungszentrum Juelich, Institute for Advanced Simulation-7, for making the Pedestrian Dynamics Data Archive publicly accessible under the CC Attribution 4.0 International license.
+
+* Thanks to Anna Sieben, Helena Lügering, and Ezel Üsten for developing the rating system and annotating the pushing behavior in the video experiments.
 
 * Thanks to the authors of the paper titled ``RAFT: Recurrent All Pairs Field Transforms for Optical Flow'' for making the RAFT source code available.
 
