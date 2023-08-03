@@ -44,10 +44,10 @@ xxxxxxxxx
 </tr>
 </table>
 
-## Test
+
 
 <img src="./files/output150-distorted.gif" />
-<img src="./files/example.gif" />
+<img src="./files/example.gif" width=200/>
 
 ## The Architecture of `DL4PuDe`
 <a name="architicture">
