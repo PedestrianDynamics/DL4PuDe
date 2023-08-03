@@ -40,7 +40,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 
 <img src="./files/snakemotion.jpg" />
 
-
+<br/>
 
 <img src="files/example.gif" />
      
@@ -49,8 +49,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 
 
 
-<img src="./files/output150-distorted.gif" />
-<img src="./files/example.gif" width=200/>
+
 
 ## The Architecture of `DL4PuDe`
 <a name="architicture">
