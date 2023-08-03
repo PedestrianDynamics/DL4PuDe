@@ -15,10 +15,10 @@ Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning 
 6. <a href="#demo"> Demo. </a>
 7. <a href="#videos"> Experiments Videos. </a>
 8. <a href="#cnn"> CNN-based Classifiers </a>
-   * <a href="#cnnsource"> Source code for building and training CNN-based classifiers. </a>
-   * <a href="#trained"> Trained CNN-based classifiers. </a>
-   * <a href="#evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
-   *  <a href="#test"> Test sets. </a>
+    * <a href="#cnnsource"> Source code for building and training CNN-based classifiers. </a>
+    * <a href="#trained"> Trained CNN-based classifiers. </a>
+    * <a href="#evaluate"> Source code for evaluating the trained CNN-based classifiers. </a>
+    *  <a href="#test"> Test sets. </a>
 9. <a href="#list"> List of papers that cited this work. </a>
 
 ## Aim of `Dl4PuDe` Framework
@@ -40,7 +40,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 <tr>
     <td align="center"> <img src="./files/snake.jpeg" height="200"/>  </td>
     <td align="center"> <img src="./files/snakemotion.jpg" height="200"/>  </td>
-    <td align="center"> <img src="./files/pb.gif" height="200"/>  </td>
+    <td align="center"> ![Demo File](./files/example.gif) </td>
 </tr>
 </table>
 
@@ -50,7 +50,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 `DL4PuDe` mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.
 
 <img src="./files/framework1.png"/>
-Kindly note that we use the [RAFT repository](https://github.com/princeton-vl/RAFT) for optical flow estimation in our project.
+Kindly note that we use the <a href="https://github.com/princeton-vl/RAFT" />[RAFT repository] </a> for optical flow estimation in our project.
 
 **Example**
 <table border="0" width="100%" align="center">
@@ -141,6 +141,11 @@ If you utilize this framework or the generated dataset in your work, please cite
 ```
 Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning and Visualization Framework for Pushing Behavior Detection in Pedestrian Dynamics" Sensors 22, no. 11: 4040. 
 ```
+
+## Acknowledgments
+* This work was funded by the German Federal Ministry of Education and Research (BMBF: funding number 01DH16027) within the Palestinian-German Science Bridge project framework, and partially by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)—491111487.
+
+* Thanks to the authors of the paper titled ``RAFT: Recurrent All Pairs Field Transforms for Optical Flow'' for making the RAFT source code available.
 
 
  
