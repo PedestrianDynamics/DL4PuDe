@@ -43,8 +43,10 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
     <td align="center"> <img src="./files/output150-distorted.gif" height="200"/> </td>
 </tr>
 </table>
-<img src="./files/output150-distorted.gif" >
-<img src="./files/example.gif" >
+
+<img src="./files/output150-distorted.gif" />
+<img src="./files/example.gif" />
+
 ## The Architecture of `DL4PuDe`
 <a name="architicture">
 
