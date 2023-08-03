@@ -41,7 +41,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
 
 * Reaching a target faster
  
-<img src="./files/snakemotion.jpg" width="500px" />
+
 
 
 
