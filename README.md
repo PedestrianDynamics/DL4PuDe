@@ -37,7 +37,7 @@ To assist researchers in the field of crowd dynamics in gaining a better underst
 In this article, pushing can be defined as a behavior that pedestrians use to reach a target faster.
 
 
-
+### An example of pushing strategy
 <img src="./files/example.gif" width="300px"/>
 
 
