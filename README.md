@@ -10,7 +10,7 @@ Alia, Ahmed, Mohammed Maree, and Mohcine Chraibi. 2022. "A Hybrid Deep Learning 
 1. <a href="#aim"> Framework aim. </a>
 2. <a href="#motivation"> Framework Motivation. </a>
 3. <a href="#defention"> Pushing Behavior Defention. </a>
-4. <a href="#architicture"> Framework Architicture. </a>
+4. <a href="#architecture"> Framework Architecture. </a>
 5. <a href="#install"> How to install and use the framework. </a>
 6. <a href="#demo"> Demo. </a>
 7. <a href="#videos"> Experiments Videos. </a>
@@ -45,7 +45,7 @@ In this article, pushing can be defined as a behavior that pedestrians use to re
  
 
 ## The Architecture of `DL4PuDe`
-<a name="architicture">
+<a name="architecture">
 
 `DL4PuDe` mainly relied on the power of EfficientNet-B0-based classifier, RAFT and wheel visualization methods.
 
