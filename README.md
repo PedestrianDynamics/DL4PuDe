@@ -1,6 +1,7 @@
 # `DL4PuDe:` A hybrid framework of deep learning and visualization for pushing behavior detection in pedestrian dynamics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8210956.svg)](https://doi.org/10.5281/zenodo.8210956) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8257076.svg)](https://doi.org/10.5281/zenodo.8257076
+) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](./LICENSE)  ![Python 3.7 | 3.8](https://img.shields.io/badge/Python-3.7|3.8-blue.svg)  ![GPU](https://img.shields.io/badge/GPU-No-yellow) ![RAM16GB](https://img.shields.io/badge/RAM-16GB-red)  
 
 This repository is for the DL4PuDe framework, along with its  published [paper](https://www.mdpi.com/1424-8220/22/11/4040/htm), which is as follows.
 ```
